@@ -10,7 +10,7 @@ Test it out with
 
 ```bash
 $> docker build -t application:latest .
-$> docker run -p 5000:5000 application:latest
+$> docker run -p 80:5000 application:latest
 ```
 
 Open http://35.175.149.193:80/
